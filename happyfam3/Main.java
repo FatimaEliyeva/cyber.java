@@ -104,6 +104,14 @@ import java.util.TreeMap;
            System.out.println(family.toString());
            System.out.println("Family member count: " + family.countFamily());
 
+           family.deleteChild(child2);
+           System.out.println("\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+           System.out.println("Family Details After Deletion:");
+
+           System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+           System.out.println(family.toString());
+           System.out.println("Family member count: " + family.countFamily());
+
            family.deleteChildrenWithIndex(0);
            for (int i = 0; i < 10000000; i++) {
                if (family.deleteChild(child1)) {
@@ -111,6 +119,7 @@ import java.util.TreeMap;
                }
            }
            }
+
 
    }
 
