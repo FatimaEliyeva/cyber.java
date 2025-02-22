@@ -60,7 +60,7 @@ public class Family {
     }
 
     public int countFamily() {
-        return 2 + children.length; // Parents + Children
+        return 2 + children.length; 
     }
     @Override
     public boolean equals(Object object) {
@@ -140,9 +140,9 @@ public class Family {
                 //sb.append(children[i].gettingName()).append(" ").append(children[i].gettingSurname());
                 sb.append("Children[i]" + children[i].toString());
                 if (i < children.length - 1) sb.append("");
-*/              sb.append("Children").append(i + 1).append(": ");  // Add Children1, Children2, etc.
+*/              sb.append("Children").append(i + 1).append(": ");  
                 //sb.append(children[i].gettingName()).append(" ").append(children[i].gettingSurname());
-                sb.append(children[i].toString());  // Add child's full details here
+                sb.append(children[i].toString());  
                 if (i < children.length - 1) ;
 
             }
