@@ -5,7 +5,7 @@ public class indexoutofbounds {
         try {
             System.out.println(numbers[12]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("ArrayIndexOutOfBoundsException caught!");
+            System.out.println("ArrayIndexOutOfBoundsException is caught!");
         }
     }
 }
