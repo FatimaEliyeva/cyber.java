@@ -1,4 +1,4 @@
-public class IndexOutOfBounds {
+public class indexoutofbounds {
     public static void main(String[] args) {
         int[] numbers = {10,12,13,14,56};
 
